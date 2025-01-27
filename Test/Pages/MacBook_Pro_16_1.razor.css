@@ -1,0 +1,128 @@
+.row-layout {
+    display: flex;
+}
+.mac-book-pro-16-1-container {
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+    height: 100%;
+}
+.column-layout {
+    display: flex;
+    flex-direction: column;
+}
+.mac-book-pro-16-1 {
+    background-color: var(--ig-primary-100);
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 10px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-width: min-content;
+    min-height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
+.group {
+    justify-content: flex-start;
+    align-items: center;
+    align-content: flex-start;
+    gap: 1rem;
+    overflow: hidden;
+}
+.content {
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 10px;
+    left: -1.7741102430555526px;
+    top: 61px;
+    bottom: 0;
+    position: absolute;
+    padding: 190px 503px;
+    height: 1064px;
+    min-height: 1064px;
+    max-height: 1064px;
+}
+.frame-1 {
+    background-color: rgba(255, 255, 255, 1);
+    justify-content: flex-start;
+    align-items: center;
+    align-content: flex-start;
+    gap: 52px;
+    overflow: hidden;
+    position: relative;
+    padding: 20px 167px;
+    width: 750px;
+    height: 642px;
+    min-width: 750px;
+    min-height: 642px;
+    max-width: 750px;
+    max-height: 642px;
+}
+.frame-2 {
+    justify-content: flex-start;
+    align-items: center;
+    align-content: flex-start;
+    gap: 32px;
+    position: relative;
+    width: 360px;
+    min-width: 360px;
+    max-width: 360px;
+}
+.navbar {
+    color: #000000FF;
+    background-color: #239EF0FF;
+    position: relative;
+    height: max-content;
+    align-self: stretch;
+}
+.button {
+    position: relative;
+}
+.button::part(base) {
+    color: var(--ig-gray-900);
+    background-color: #FFFFFF00;
+}
+.button_1::part(base) {
+    color: var(--ig-gray-900);
+    background-color: #FFFFFF00;
+}
+.icon {
+    color: var(--ig-gray-900);
+}
+.h6 {
+    margin: 0;
+    flex-shrink: 0;
+}
+.start-budgeting {
+    color: var(--ig-gray-900);
+    position: relative;
+    align-self: stretch;
+}
+.input {
+    position: relative;
+    flex-grow: 1;
+    flex-basis: 0px;
+}
+.input_1 {
+    position: relative;
+    width: 360px;
+    min-width: 360px;
+    max-width: 360px;
+}
+.button_2 {
+    --ig-size: var(--ig-size-medium);
+    position: relative;
+    width: 360px;
+    height: max-content;
+    min-width: 360px;
+    max-width: 360px;
+}
+.button_2::part(base) {
+    color: #000000FF;
+    background-color: var(--ig-info-500);
+}

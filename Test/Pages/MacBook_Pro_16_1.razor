@@ -1,0 +1,62 @@
+@page "/"
+@page "/mac-book_pro_16_1"
+
+<div class="row-layout mac-book-pro-16-1-container">
+    @if (_groupVisible)
+    {
+        <div class="column-layout mac-book-pro-16-1">
+            <IgbNavbar class="navbar" mac_book_pro_16_1-scope>
+                <IgbIconButton slot="start" Variant="IconButtonVariant.Flat" class="button" mac_book_pro_16_1-scope>
+                    <span class="material-icons icon">
+                        menu
+                    </span>
+                    <IgbRipple></IgbRipple>
+                </IgbIconButton>
+                <div class="row-layout group">
+                    <h6 class="h6">
+                        Screen Title
+                    </h6>
+                </div>
+                <IgbIconButton slot="end" Variant="IconButtonVariant.Flat" class="button_1" mac_book_pro_16_1-scope>
+                    <span class="material-icons icon">
+                        search
+                    </span>
+                    <IgbRipple></IgbRipple>
+                </IgbIconButton>
+                <IgbIconButton slot="end" Variant="IconButtonVariant.Flat" class="button_1" mac_book_pro_16_1-scope>
+                    <span class="material-icons icon">
+                        favorite
+                    </span>
+                    <IgbRipple></IgbRipple>
+                </IgbIconButton>
+                <IgbIconButton slot="end" Variant="IconButtonVariant.Flat" class="button_1" mac_book_pro_16_1-scope>
+                    <span class="material-icons icon">
+                        more_vert
+                    </span>
+                    <IgbRipple></IgbRipple>
+                </IgbIconButton>
+            </IgbNavbar>
+            <div class="column-layout content">
+                <div class="column-layout frame-1">
+                    <h2 class="start-budgeting">
+                        Start Budgeting
+                    </h2>
+                    <div class="row-layout frame-2">
+                        <IgbInput Label="First Name" Placeholder="Jerzon" Outlined="true" class="input" mac_book_pro_16_1-scope></IgbInput>
+                        <IgbInput Label="Last Name" Placeholder="Hernandez" Outlined="true" class="input" mac_book_pro_16_1-scope></IgbInput>
+                    </div>
+                    <IgbInput Label="Username" Placeholder="jhernandez123" Outlined="true" class="input_1" mac_book_pro_16_1-scope></IgbInput>
+                    <IgbInput DisplayType="InputType.Password" Label="Password" Placeholder="************" Outlined="true" class="input_1" mac_book_pro_16_1-scope></IgbInput>
+                    <IgbButton DisplayType="ButtonBaseType.Button" class="button_2" mac_book_pro_16_1-scope>
+                        SIGN UP
+                        <IgbRipple></IgbRipple>
+                    </IgbButton>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+@code {
+    private bool _groupVisible = false;
+}
